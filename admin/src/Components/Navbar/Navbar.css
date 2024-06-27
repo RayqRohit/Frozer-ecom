@@ -1,0 +1,64 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 4px -2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1px;
+    background-color: white;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-logo p {
+    color: #171717;
+    font-size: 30px;
+    font-weight: 600;
+    margin: -3px;
+}
+
+.para-section{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+
+
+
+.para-section .admin-panel-text{
+    color: red;
+    font-size: 12px;
+    
+}
+
+.nav-logo{
+    width: 200px;
+
+}
+
+.nav-profile{
+    width: 75px;
+}
+
+
+@media (max-width : 800px){
+
+    .navbar{
+        padding: 15px 30px;
+    }
+
+    .nav-logo{
+        width: 150px;
+    }
+
+    .nav-profile{
+        width: 60px;
+    }
+}
+

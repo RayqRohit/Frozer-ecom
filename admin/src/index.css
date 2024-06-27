@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@400;600&family=Kalam:wght@700&family=Kanit&family=Kaushan+Script&family=Merriweather&family=Montserrat:wght@400;500&family=Poor+Story&family=Poppins:wght@400;700&family=Roboto&family=Sacramento&family=Sigmar&family=Ubuntu&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f6f6f6;
+    height: 100vh;
+}
